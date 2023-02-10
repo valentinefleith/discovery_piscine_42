@@ -1,0 +1,1 @@
+Ce dépôt répertorie les exercices que j'ai pu faire lors de ma semaine d'initiation au code à l'école 42.
