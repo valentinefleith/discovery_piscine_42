@@ -1,0 +1,50 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: serif;
+	font-size: 24px;
+}
+
+
+.parallax {
+	background-attachment: fixed; /* Fixe l'image pendant le scroll*/
+	background-size: cover; /*l'image prendra 100% de l'espace*/
+	background-position: center; /*centre la position de l'image*/
+	background-repeat: no-repeat; /*empeche l'image de se repeter en fction de la taille de l'ecran*/
+	position: relative;
+}
+
+
+.parallax1 {
+	background-image: url("https://www.sciencesetavenir.fr/assets/img/2022/05/25/cover-r4x3w1200-628e2f6688732-particularites-chien-border-collie.jpg");
+	min-height: 80%;
+}
+
+.parallax2 {
+        background-image: url("https://www.wikichien.fr/wp-content/uploads/sites/4/berger_australien_med-_res-___basic.jpg");
+	min-height: 80%;
+}
+
+.block {
+	position:relative;
+	color: #ddd;
+	background-color:#282E34;
+	text-align:center;
+	padding: 100px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption span.border {
+	background-color: #FFF2ED;
+	color: #3D2F29;
+	padding: 10px;
+	font-size: 25px;
+}
